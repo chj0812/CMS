@@ -1,0 +1,17 @@
+{
+  "name": "contract-management-system",
+  "version": "1.0.0",
+  "description": "연구소 계약 프로세스 관리 시스템",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node server.js"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.21.2",
+    "multer": "^1.4.5-lts.1",
+    "xlsx": "^0.18.5"
+  }
+}
